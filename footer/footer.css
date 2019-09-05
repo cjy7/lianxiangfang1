@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none
+}
+li{
+    list-style: none;
+}
+.footer{
+    background-color: #272727;
+    width: 100%;
+    color: #ccc;
+}
+.f-top{
+    width: 1200px;
+    margin: auto;
+    padding: 60px 0 70px 0;
+    position: relative;
+    box-sizing: content-box;
+}
+.f-li{
+    float: left;
+    width: 210px;
+}
+.f-li-title{
+    display: block;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 18px !important;
+    font-weight: 600;
+    color: #ccc;
+}
+.f-li-a{
+    display: block;
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 12px;
+    color:#ccc
+}
+.f-li2{
+    float: left;
+    width: 210px;
+}
+.f-li3{
+    float: left;
+    width: 210px;
+}
+.f-li4{
+    float: left;
+    width: 130px;
+}
+.f-li5{
+    float: left;
+    width: 230px;
+}
+.li-ul{
+    margin: 2px 0 10px;
+}
+.lul{
+    float: left;
+    margin: 6px 7px 6px 4px;
+}
+.wb{
+    display: block;
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 0px;
+    transition: all 0.3s
+}
+.wb1{
+    width: 37px;
+    height: 36px;
+    transition: all 0.3s;
+    background: url(//p1.lefile.cn/product/adminweb/2018/11/08/65c60c1d-a6bc-4bfe-9dda-02c3972857de.png) -63px -190px;
+}
+.wb1:hover{
+    width: 37px;
+    height: 36px; 
+    transform: rotate(360deg)
+}
+.wb2{
+    width: 37px;
+    height: 36px;
+    transition: all 0.3s;
+    background: url(//p1.lefile.cn/product/adminweb/2018/11/08/65c60c1d-a6bc-4bfe-9dda-02c3972857de.png) -119px -190px;
+}
+.wb2:hover{
+    width: 37px;
+    height: 36px;
+    transform: rotate(360deg)
+}
+.wb3{
+    width: 37px;
+    height: 36px;
+    transition: all 0.3s;
+    background: url(//p1.lefile.cn/product/adminweb/2018/11/08/65c60c1d-a6bc-4bfe-9dda-02c3972857de.png) -176px -190px;
+}
+.wb3:hover{
+    width: 37px;
+    height: 36px;
+   
+    transform: rotate(360deg)
+}
+.f-weibo-a{
+    margin: 0 20px 0 5px;
+    float: left;
+
+}
+.f-weibo-p{
+    width: 82px;
+    height: 20px;
+    background: url(//p1.lefile.cn/product/adminweb/2018/11/08/65c60c1d-a6bc-4bfe-9dda-02c3972857de.png) -8px -132px;
+}
+.f-weibo-a2{
+    margin-top: -2px;
+    float: left;
+}
+.f-weibo-p2{
+    width: 74px;
+    height: 22px;
+    background: url(//p1.lefile.cn/product/adminweb/2018/11/08/65c60c1d-a6bc-4bfe-9dda-02c3972857de.png) -119px -129px;
+    margin-top: -2px;
+}
+.f-pho{
+    margin-top: 21px;
+}
+.pho-span1{
+    font-size: 20px;
+    color: #CCCCCC;
+    text-align: left
+}
+.pho-span2{
+    display: block;
+    font-size: 12px;
+    color: #757575;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 25px4
+}
+.pho-a{
+    background: url(https://p1.lefile.cn/product/adminweb/2019/08/19/6140df30-6cfd-4c97-8d1f-8e7774a21cf3.png);
+    display: inline-block;
+    width: 139px;
+    height: 36px;
+    margin-top: 5px;
+}
+.f-bot{
+    border-top: 1px solid #424141;
+    background: #272727;
+}
+.bot{
+    width: 1200px;
+    margin: auto;
+    font-size: 12px;
+    line-height: 46px;
+}
+.bot-left{
+    float: left;
+}
+.shuxian{
+    margin: 0 6px;
+    display: inline-block;
+}
+.bot-left-a{
+    font-size: 12px;
+    line-height: 46px;
+    color: #ccc;
+}
+.bot-right{
+    float: right;
+}
