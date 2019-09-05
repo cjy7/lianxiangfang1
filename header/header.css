@@ -1,0 +1,148 @@
+  *{    margin:0px;
+      padding:0px;}
+  a{
+    text-decoration: none;
+  }
+  img {
+    border: none;
+    vertical-align: top;
+}
+li{
+  margin: 0;
+    padding: 0;
+    list-style: none
+}
+.hd-w{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-width: 1200px;
+  height: 53px;
+  margin: 0 auto;
+  background: #fff;
+  z-index: 2;
+}
+.hd-hide{
+  overflow: visible;
+  margin: 0 auto;
+  height: 53px;    
+  width: 100%;
+}
+.hd-logo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-right: 37px;
+  width: 173px;
+  font-size: 0;
+}
+.logo{
+  width: 173px;
+  height: 53px;
+}
+.hd-zhong{
+   width: 1273.2px;
+    float: left;
+    cursor: default
+}
+.hd-ul{
+  width: auto;
+}
+.zhanwei{
+  margin-right: 37px;
+  width: 173px;
+  height: 53px;
+  float: left;
+  display:block
+}
+.hd-li{
+  float: left;
+  margin-right: 28px;
+  height: 53px;
+  line-height: 53px;
+  font-size: 16px;
+  color: #121212;
+  font-weight: 700;
+}
+.hd-title{
+  line-height: 53px;
+  font-size: 16px;
+  color: #121212;
+  font-weight: 700;
+  display: block;
+}
+.hd-title-a{
+  font-size: 14px;
+  font-style: normal;
+  color: #121212;
+}
+.hd-right{
+  float: right;
+  width: 246px;
+  height: 53px;
+  line-height: 53px;
+  font-size: 0;
+  background: #fff;
+}
+.hd-search{
+  float: left;
+  margin-right: 49px;
+  line-height: 53px;
+  width: 22px;
+}
+.hd-login{
+  float: left;
+  list-style: none;
+  margin-right: 50px;
+  height: 53px;
+}
+.login1{
+  margin-right: 17px;
+  vertical-align: middle;
+  position: relative;
+}
+.login{
+  font-size: 14px;
+  color: #121212;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: 1;
+  position: relative;
+  z-index: 3;
+}
+.zhuce{
+  font-size: 14px;
+  color: #121212;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: 1;
+}
+.xian{
+  display: inline-block;
+  margin: 0 5px;
+  height: 16px;
+  width: 2px;
+  background-color: #ccc;
+  vertical-align: middle;
+  font-style: normal;
+}
+.sec-img{
+  width: 22px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.shoppingcar{
+  line-height: 24px;
+    position: relative;
+    z-index: 4
+}
+.shoppingcar1{
+  position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    top: -3px;
+    vertical-align: middle;
+ 
+}
