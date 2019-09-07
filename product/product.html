@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="shop_right">
+        <div class="shop-1">
+            <ul>
+                <li>
+                    <a href="javascript:;" title="会员中心">
+                        <img class="shop-li-1" src="http://m1.lefile.cn/tp/c/images/userlogo.jpg" alt="会员中心">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="shop-li-2">购物车</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="shop-li-3"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="shop-li-4"></a>
+                </li>
+                <li >
+                        <a href="#" class="shop-totop"></a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <div clas="detail">
+        <div class="nav">
+            <div class="nav_con">
+                <a href="javascript:;">首页</a>
+                > 商品详情 > ThinkPad X1 Yoga 2019 英特尔酷睿i5笔记本电脑20QFA006CD水雾灰
+            </div>
+        </div>
+        <div class="con">
+            <div class="con_left">
+                <img :src=imgurl class="l-md" alt="">
+                <div class="l-sm">
+                  <a href="javascript:;" class="sm-left" @click="move(-1)">
+                      <div class="btn-left">
+                          <div :class="num<=0?'disleft':'btn-left1'"></div>
+                          <div class="btn-left2"></div>
+                      </div>
+                  </a>
+                 <a href="javascript:;" class="sm-right" @click="move(+1)">
+                        <div class="btn-right">
+                                <div :class="num>=2?'disright':'btn-right1'"></div>
+                                <div class="btn-right2"></div>
+                       </div>
+                 
+                       <div style="clear: both;"></div>
+                    </a>
+                 <div class="list">
+                     <ul class="list-ul" :style="{'margin-left':-98*num+'px'}">
+                       <li class="list-li">
+                           <a href="javascript:;">
+                               <img src="//p1.lefile.cn/product/adminweb/2019/07/18/VCtkT32AEIsDpnOeeACOceIXd-9945.w84.jpg" data-img="//p1.lefile.cn/product/adminweb/2019/07/18/VCtkT32AEIsDpnOeeACOceIXd-9945.w520.jpg" @mouseover="movemd($event)">
+                           </a>
+                       </li>
+                       <li class="list-li">
+                            <a href="javascript:;">
+                                <img src="//p1.lefile.cn/product/adminweb/2019/07/18/7Q9nf88L0UKsf7aJZBwBSQJ6j-8031.w84.jpg" data-img="//p1.lefile.cn/product/adminweb/2019/07/18/7Q9nf88L0UKsf7aJZBwBSQJ6j-8031.w520.jpg" @mouseover="movemd($event)">
+                            </a>
+                        </li>
+                        <li class="list-li">
+                                <a href="javascript:;">
+                                    <img src="//p3.lefile.cn/product/adminweb/2019/07/18/iSWWbhYYE0UrfmG3yv7PgjkEz-8079.w84.jpg" data-img="//p3.lefile.cn/product/adminweb/2019/07/18/iSWWbhYYE0UrfmG3yv7PgjkEz-8079.w520.jpg" @mouseover="movemd($event)">
+                                </a>
+                            </li>
+                            <li class="list-li">
+                                    <a href="javascript:;">
+                                        <img src="//p1.lefile.cn/product/adminweb/2019/07/18/6dm4UZTak1ITqVCeFNX3dSIGk-8125.w84.jpg" data-img="//p1.lefile.cn/product/adminweb/2019/07/18/6dm4UZTak1ITqVCeFNX3dSIGk-8125.w520.jpg" @mouseover="movemd($event)">
+                                    </a>
+                                </li>
+                                <li class="list-li">
+                                        <a href="javascript:;">
+                                            <img src="//p4.lefile.cn/product/adminweb/2019/07/18/Hamhuxhmo2fn5TiudELu4bYuB-8680.w84.jpg" data-img="//p4.lefile.cn/product/adminweb/2019/07/18/Hamhuxhmo2fn5TiudELu4bYuB-8680.w520.jpg" @mouseover="movemd($event)">
+                                        </a>
+                                    </li>
+                                    <li class="list-li">
+                                            <a href="javascript:;">
+                                                <img src="//p3.lefile.cn/product/adminweb/2019/07/18/hCkaiV6l49nWdgFFs4n6k411d-8701.w84.jpg" data-img="//p3.lefile.cn/product/adminweb/2019/07/18/hCkaiV6l49nWdgFFs4n6k411d-8701.w520.jpg" @mouseover="movemd($event)">
+                                            </a>
+                                        </li>
+                                        <li class="list-li">
+                                                <a href="javascript:;">
+                                                    <img src="//p4.lefile.cn/product/adminweb/2019/07/18/aaDvs3kwQOVgyv1iJXARqeSP8-2092.w84.jpg" data-img="//p4.lefile.cn/product/adminweb/2019/07/18/aaDvs3kwQOVgyv1iJXARqeSP8-2092.w520.jpg" @mouseover="movemd($event)">
+                                                </a>
+                                            </li>
+ 
+                       <div style="clear: both;"></div>
+                     </ul>
+                     <div style="clear: both;"></div>
+                 </div>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+            <div class="con_right">
+                <div>
+                    <h1 title="ThinkPad X1 Yoga 2019 英特尔酷睿i5笔记本电脑20QFA006CD水雾灰" class="title">ThinkPad X1 Yoga 2019 英特尔酷睿i5笔记本电脑20QFA006CD水雾灰</h1>
+                </div>
+                <div class="dec">
+                    ThinkPad X1 Yoga 2019 英特尔酷睿i5笔记本电脑20QFA006CD水雾灰
+                </div>
+                <div class="price-a">
+                    <div class="price-detail">
+                        <div class="prc-c">
+                            <div class="price-desc">商城价</div>
+                            <div class="sign-prc">
+                                <span class="price-sign">￥</span>
+                                <span class="price-show">{{prc}}</span>
+                            </div>
+                        </div>
+                        <div class="total">
+                            <div class="total-desc">累计评价</div>
+                            <div class="total-count">10w+</div>
+                        </div>
+                    </div>
+                    <div class="active-several" style="z-index:99;">
+                        <div class="active-place">
+                            <div class="active-left">
+                                <span>活动</span>
+                            </div>
+                            <div class="active-right">
+                                <div class="gif-contaner">
+                                    <span class="gift-label">
+                                        <em class="em-text">赠品</em>
+                                    </span>
+                                    <div class="gif-list">
+                                        <div class="gif-item">
+                                            <a href="javascript:;">
+                                                <img src="img/TbfNuydWSoWLi1jvxANXhYc6H-1044.jpg" class="gif-img-small" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="gif-item">
+                                            <a href="javascript:;">
+                                                <img src="img/Yxw3kVzE4zxGcz08rdWnYmcCN-7416.jpg" class="gif-img-small" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="gif-item">
+                                            <a href="javascript:;">
+                                                <img src="img/d1I5a4cXoV1QVwpoLNmOgGY0b-6161.jpg" class="gif-img-small" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <span class="s_rule">
+                                        <span>赠完为止</span>
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div style="z-index:99;">
+                    <div class="down-gap">
+                        <em class="label-style">分期免息</em>
+                        <p class="label-p">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: rgb(255, 0, 0);"></span>
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: rgb(0, 0, 0);">活动期间购买本产品，享6期蚂蚁花呗免息分期，仅支持单独购买笔记本</span>
+                        </p>
+                    </div>
+                    <div class="down-gap">
+                        <em class="label-style">赠送延保</em>
+                        <p class="label-p">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: rgb(255, 0, 0);"></span>
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: rgb(0, 0, 0);">活动购机社区晒单最多加送1年延保，查看详情</span>
+                        </p>
+                    </div>
+                    <div class="down-gap">
+                        <em class="label-style">专属定制</em>
+                        <p class="label-p">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: rgb(255, 0, 0);"></span>
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: rgb(0, 0, 0);">活动专业配置选择，定制专属外观，选择心仪配件，灵活组合随需定制！！详情</span>
+                        </p>
+                    </div>
+                    <div class="down-gap">
+                        <em class="label-style">注册有礼</em>
+                        <p class="label-p">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: rgb(255, 0, 0);"></span>
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: rgb(0, 0, 0);">活动个人用户注册联想商城会员可获赠188元新人大礼包，详情点击</span>
+                        </p>
+                    </div>
+                    <div class="down-gap">
+                        <em class="label-style">顺丰包邮</em>
+                        <p class="label-p">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: rgb(255, 0, 0);"></span>
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: rgb(0, 0, 0);">顺丰包邮，非定制机型在当天16点前完成支付当天发货，其余第二天发货</span>
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <div class="business-staff">
+                    <div class="business-title">增值业务</div>
+                    <div class="business-detail">
+                        <span class="span-bd">支持</span>
+                        <div class="old-for-new">
+                            <img class="old-for-new-img" src="https://p3.lefile.cn/product/adminweb/2019/07/04/a66983ae-df77-4380-8d3c-6ff2d467465b.png"
+                                alt="">
+                            <a href="javascript:;">
+                                <span class="span-old">以旧换新</span>
+                            </a>
+                        </div>
+                        <span class="span-bd">高价回收，急速到账换新机</span>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+                <div>
+                    <div class="business-staff">
+                        <ul class="guige">
+                            <li class="guige-li">
+                                <div class="guige-item-title">
+                                    选择配置
+                                </div>
+                                <div class="guige-item-detalis"  @click="act($event)">
+                                    <span title="i7-8565U/Windows 10/16GB/512GB SSD/手写笔/14英寸WQHD IPS LED背光触控显示屏/水雾灰" class="spec-big" :class='at==1?"active":""' data-act="1">
+                                          i5-8265U/Windows 10/8GB/512GB ... 
+                                    </span>
+                                    <span title="i7-8565U/Windows 10/16GB/512GB SSD/手写笔/14英寸WQHD IPS LED背光触控显示屏/水雾灰" class="spec-big" :class='at==2?"active":""' data-act="2">
+                                         i5-8265U/Windows 10/8GB/512GB ... 
+                                    </span>
+                                    <span title="i7-8565U/Windows 10/16GB/512GB SSD/手写笔/14英寸WQHD IPS LED背光触控显示屏/水雾灰" class="spec-big" :class='at==3?"active":""' data-act="3">
+                                         i5-8265U/Windows 10/8GB/512GB ... 
+                                    </span>
+                                    <span title="i7-8565U/Windows 10/16GB/512GB SSD/手写笔/14英寸WQHD IPS LED背光触控显示屏/水雾灰" class="spec-big" :class='at==4?"active":""' data-act="4">
+                                        i5-8265U/Windows 10/8GB/512GB ... 
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+                <!-- 私人定制 -->
+                <div class="business-staff" id="container_dingzhi">
+                    <div class="business-title">私人订制</div>
+                    <div class="dingzhi-wrap">
+                        <div id="div_dingzhi">
+                            <div class="business-detail pe-pic">
+                                <span class="pe-pic-txt">选择A面喷图</span>
+                            </div>
+                            <div class="business-detail pe-pic">
+                                <span class="pe-pic-txt">选择b面喷图</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+                <!-- 推荐选择 -->
+                <div class="business-staff re-wrap">
+                    <p class="business-title">推荐选择</p>
+                    <div class="reBox">
+                        <p class="re-title">支持多选</p>
+                        <div class="swripBox">
+                            <ul class="swripBox-item-wrop" style="width: 1312px;">
+                                <li class="swripBox-item">
+                                    <div class="imgBo">
+                                        <img class="imgBox-img" src="//p1.lefile.cn/product/adminweb/2018/10/30/TcmhSAbX1YaUv7tlmdbmUF8rY-0061.w48.jpg" alt="">
+                                    </div>
+                                    <a href="javascript:;">
+                                        <p title="thinkplus 口红电源适配器(黑)" class="title-s">thinkplus 口红电源适配...</p>
+                                    </a>
+                                    <p class="main">￥
+                                        <span>199.00</span>
+                                    </p>
+                                    <p class="s-save">省￥
+                                        <span>100</span>
+                                    </p>
+                                </li>
+                                <li class="swripBox-item">
+                                    <div class="imgBo">
+                                        <img class="imgBox-img" src="//p1.lefile.cn/product/adminweb/2019/01/18/ij7NsuFK1rqfLwhsIytIZHpO2-3864.w48.jpg" alt="">
+                                    </div>
+                                    <a href="javascript:;">
+                                        <p title="thinkplus 口红电源适配器(雅典白) 限量款" class="title-s">thinkplus 口红电源适配...</p>
+                                    </a>
+                                    <p class="main">￥
+                                        <span>199.00</span>
+                                    </p>
+                                    <p class="s-save">省￥
+                                        <span>100</span>
+                                    </p>
+                                </li>
+                                <li class="swripBox-item">
+                                    <div class="imgBo">
+                                        <img class="imgBox-img" src="//p3.lefile.cn/product/adminweb/2018/12/07/ViVTrlH82oKyMgIiS7SAPQREl-9264.w48.jpg" alt="">
+                                    </div>
+                                    <a href="javascript:;">
+                                        <p title="thinkplus 指纹优盘 FU100（32GB）黑色" class="title-s">thinkplus 指纹优盘 ...</p>
+                                    </a>
+                                    <p class="main">￥
+                                        <span>299.00</span>
+                                    </p>
+                                    <p class="s-save">省￥
+                                        <span>100</span>
+                                    </p>
+                                </li>
+                                <li class="swripBox-item">
+                                    <div class="imgBo">
+                                        <img class="imgBox-img" src="//p3.lefile.cn/product/adminweb/2018/12/07/ViVTrlH82oKyMgIiS7SAPQREl-9264.w48.jpg" alt="">
+                                    </div>
+                                    <a href="javascript:;">
+                                        <p title="thinkplus 口红电源适配器(黑)" class="title-s">thinkplus 口红电源适配...</p>
+                                    </a>
+                                    <p class="main">￥
+                                        <span>299.00</span>
+                                    </p>
+                                    <p class="s-save">省￥
+                                        <span>100</span>
+                                    </p>
+                                </li>
+                                <li class="swripBox-item">
+                                    <div class="imgBo">
+                                        <img class="imgBox-img" src="//p3.lefile.cn/product/adminweb/2018/12/07/ViVTrlH82oKyMgIiS7SAPQREl-9264.w48.jpg" alt="">
+                                    </div>
+                                    <a href="javascript:;">
+                                        <p title="thinkplus 口红电源适配器(黑)" class="title-s">thinkplus 口红电源适配...</p>
+                                    </a>
+                                    <p class="main">￥
+                                        <span>999.00</span>
+                                    </p>
+                                    <p class="s-save">省￥
+                                        <span>100</span>
+                                    </p>
+                                </li>
+                                <li class="swripBox-item">
+                                    <div class="imgBo">
+                                        <img class="imgBox-img" src="//p3.lefile.cn/product/adminweb/2018/12/07/OqnMN0qAsXZIpdXarQRhpNj4X-7673.w48.jpg" alt="">
+                                    </div>
+                                    <a href="javascript:;">
+                                        <p title="thinkplus桌面型空气净化器KJ-532 玉石白" class="title-s"> thinkplus桌面型空气净...</p>
+                                    </a>
+                                    <p class="main">￥
+                                        <span>199.00</span>
+                                    </p>
+                                    <p class="s-save">省￥
+                                        <span>100</span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 购买数量 -->
+                <div class="business-staff">
+                    <div class="business-title">购买数量</div>
+                    <div class="buy-c">
+                        <div class="add-c">
+                            <span class="rc" @click="add(-1)">
+                                <i class="jianhao">-</i>
+                            </span>
+                            <input type="text" class="txt" v-model="ad">
+                            <span class="add-jia" @click="add(+1)">
+                                <img src="img/timg.jpg" class="jiahao" alt="">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 加入购物车 -->
+                <div class="business-staff">
+                    <div class="d-button">
+                        <div class="button-a">立即购买</div>
+                        <div class="button-b">加入购物车</div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="c-xia">
+            <div class="c-nav">
+                <div class="c-nav1">
+                    <div class="c-title">
+                        ThinkPad X1 Yoga 2019 英特尔酷睿i5笔记本电脑20QFA006...
+                    </div>
+                    <ul class="c-ul">
+                        <li class="c-ul-li chc">商品详情</li>
+                        <li class="c-ul-li">配置信息</li>
+                        <li class="c-ul-li">商品评价(10w+)</li>
+                        <li class="c-ul-li">服务支持</li>
+                        <li class="c-ul-li">
+                            <button class="c-btn">立即购买</button>
+                        </li>
+                    </ul>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+            <div class="c-dea">
+                <a href="javascript:;">
+                    <img class="c-img1" src="//p3.lefile.cn/fes/cms/2019/08/19/nm3ri6c5b674s10eco94e6t8p7r9t6031642.jpg">
+                </a>
+                <a href="javascript:;">
+                    <img class="c-img1" src="//p1.lefile.cn/fes/cms/2018/12/29/j02021mmmwwywvhuwikwimp0durlo1712339.jpg">
+                </a>
+                <div class="images">
+
+                    <p>
+                        <img class="laz" src="//p1.lefile.cn/product/adminweb/2019/07/18/DEHbMj6Nc0nwVEAjPLxIgyjOn-8319.jpg" alt="">
+                        <img class="laz" src="//p1.lefile.cn/product/adminweb/2019/07/18/fGXhYJY9GV4TpLohbV4FB5tpd-9412.jpg" alt="">
+                        <img class="laz" src="//p3.lefile.cn/product/adminweb/2019/07/18/u0VzqZFRdLQxzsVCkxql1IjEi-9810.jpg" alt="">
+                        <img class="laz" src="//p1.lefile.cn/product/adminweb/2019/07/18/A5phxhZJrFvogeNRoycG1EGhU-5566.jpg" alt="">
+                        <img class="laz" src="//p1.lefile.cn/product/adminweb/2019/07/18/D5NmmmuCsmTATumw2DYwOZs4A-7648.jpg" alt="">
+                        <img class="laz" src="//p4.lefile.cn/product/adminweb/2019/07/18/q7fZhb5IyXRFbklKSth8U2UOe-9608.jpg" alt="">
+                    </p>
+                
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <script src="js/vue.js"></script>
+    <script>
+        var app=new Vue({
+            el:"#app",
+            data:{
+              num:0,
+              imgurl:"//p1.lefile.cn/product/adminweb/2019/07/18/VCtkT32AEIsDpnOeeACOceIXd-9945.w520.jpg",
+              ad:1,
+              prc:9999.99,
+              at:1
+            },
+            methods: {
+                move(n){
+                    this.num+=n
+                   if(this.num<=0){this.num=0}else if(this.num>2){this.num=2}                  
+                },
+                movemd(e){
+                 this.imgurl=e.target.dataset.img
+                },
+                add(n){         
+                  this.ad+=n
+                 if(this.ad<=1){this.ad=1}
+                 this.prc=9999.99
+                 this.prc=this.ad*this.prc
+                },
+                act(e){                     
+                  if(e.target.nodeName=="SPAN"){
+                     this.at=e.target.dataset.act
+                     console.log(this.at)
+                  }
+                }
+            },
+        })
+    </script>
+</body>
+ 
+ 
+</html>

@@ -1,0 +1,139 @@
+ *{margin: 0;padding:0;}
+body{
+    background-color: #f7f7f7
+}
+.regist{
+    width: 358px;
+    margin: 60px auto 140px;
+    background-color: #fff;
+    padding: 52px 249px 64px;
+}
+.regist-title{
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center
+}
+.regist-tap{
+    margin-top:38px;
+    margin-bottom: 14px;
+    overflow: hidden;
+}
+.regist-tap h3{
+    width:178px;
+    float: left;
+    color: #424242;
+    text-align: center;
+    line-height: 22px;
+    font-weight:600;
+    font-size:20px;
+    cursor: pointer;
+ 
+
+}
+.person1{
+    border-right: 1px solid #e4e4e4;
+}
+.person2{
+    border-left: 1px solid #e4e4e4; 
+}
+.now{
+    color: #e43e38 !important ;
+}
+.regist-min input{
+    width: 291px;
+    border: 1px solid #d6d6d6;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-bottom: 14px;
+    padding-right: 50px;
+}
+.regist-info{
+    display: block;
+    position: relative;
+}
+.regist-min .icon-clear{
+    position: absolute;
+    top:17px;
+    right:14px;
+    width:16px;
+    height:16px;
+    display: block;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBQjk5OTNGMjFBOTgxMUU4OUUwMEI3RUM1MDRCQzEwQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpBQjk5OTNGMzFBOTgxMUU4OUUwMEI3RUM1MDRCQzEwQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkFCOTk5M0YwMUE5ODExRTg5RTAwQjdFQzUwNEJDMTBDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkFCOTk5M0YxMUE5ODExRTg5RTAwQjdFQzUwNEJDMTBDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+iMRJCQAAAVBJREFUeNqUk00rRGEUx+94nYVmL1kpn2A2SFlpWIliFjJFvgGxsCAl4hNIFMnbZHcXFlZSLJRSdymyspFiwdDk969z6+npaTKnfrd7zz3nPOftySRJEnnSCgWYhT7TXcM2XMC3a5zxAkzAPrREYfmCKThLFQ3Oz004ruEsycIprPsBdPJc9H9ZgPE0QNbSTqUEPbDi6JZNV3J0B+pXE48hL23VOAg30AmvFqwR1hw7+RTUxJiXYS/FXZixDKtqNpRh1LOLZTAQqHHa6qza91jAWdKvAJ+BHxV3VMg5XIa6qQC3AedueIQOWLJM1Kt7z/ZKAfa8RemCZ8jDE6zCPPzYJF4c+x01UWP8AE3kDR6gGXq90+6sXGXXbpnm0lUuwlFUn8jnJN1ErfBWHc4bcvbvguqchN8ajhVb4cXQZZIcQhuMaEng3YhNl/PGG/0JMAAydkvq2gvXHwAAAABJRU5ErkJggg==)no-repeat 50%;
+    cursor: pointer
+}
+.ul-slider-wrap{
+    background: #e8e8e8;
+    position: relative;
+    background-image: url("https://m2.lefile.cn/myStatic/img/icon/slider_bg.png")
+}
+.ul-slider-img{
+    background-image:url("https://m2.lefile.cn/myStatic/img/icon/favourites.png?v=1");
+    background-repeat: no-repeat;
+    background-position-x: 70%;
+    background-position-y: center;
+}
+.ul-slider-text{
+    width:100%;
+    height:100%;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    color:#666
+}
+.ul-slider-btn{
+    position: absolute;
+    top:0px;
+    cursor: move;
+    text-align: center;
+    border:1px solid #ccc;
+    background:#fff  url(https://m2.lefile.cn/myStatic/img/icon/slider_bt.png) no-repeat center
+}
+.captcha{
+    float: left;
+    width: 180px !important;
+    padding-left: 15px;
+    border:1px solid #d6d6d6;
+}
+.captcha_btn{
+    float: left;
+    width: 110px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border: 1px solid #d6d6d6;
+    border-left: 0;
+    background-color: #f7f7f7;
+    color: #3680c1;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 0%
+}
+.m1{
+    margin-bottom: 50px !important;
+}
+.regist-button{
+    width: 358px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    background-color: #e22319;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.regist_agreement{
+    margin-top: 10px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #757575;
+}
+span>a{
+    text-decoration: none;
+    color: #e22319 
+}
